@@ -1,0 +1,61 @@
+[37.898778915] 2019-04-11 17:37:15,078 - INFO - launcher: Starting sanity checks
+[37.898778915] 2019-04-11 17:37:15,078 - INFO - launcher: Checking for Python 3.5+
+[38.895845413] 2019-04-11 17:37:15,079 - INFO - launcher: Checking console encoding
+[38.895845413] 2019-04-11 17:37:15,079 - INFO - launcher: Setting console encoding to UTF-8
+[38.895845413] 2019-04-11 17:37:15,079 - INFO - launcher: Ensuring we're in the right environment
+[40.891408920] 2019-04-11 17:37:15,081 - INFO - launcher: Adding local bins/ folder to path
+[905.576944351] 2019-04-11 17:37:15,945 - INFO - launcher: Required checks passed.
+[905.576944351] 2019-04-11 17:37:15,945 - INFO - launcher: Optional checks passed.
+[905.576944351] 2019-04-11 17:37:15,945 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.9926686286926270] 2019-04-11 17:37:17,033 - WARNING - musicbot.config | In config.py::MainThread(14000), line 116 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.9936673641204834] 2019-04-11 17:37:17,034 - INFO - musicbot.config | In config.py::MainThread(14000), line 127 in run_checks: Using i18n: config/i18n/en.json
+[1.9936673641204834] 2019-04-11 17:37:17,034 - WARNING - musicbot.config | In config.py::MainThread(14000), line 211 in create_empty_file_ifnoexist: Creating config/blacklist.txt
+[1.9946644306182861] 2019-04-11 17:37:17,035 - WARNING - musicbot.config | In config.py::MainThread(14000), line 211 in create_empty_file_ifnoexist: Creating config/whitelist.txt
+[1.9986536502838135] 2019-04-11 17:37:17,039 - DEBUG - musicbot.config | In config.py::MainThread(14000), line 296 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[1.9996514320373535] 2019-04-11 17:37:17,040 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 226 in _setup_logging: Set logging level to INFO
+[1.9996514320373535] 2019-04-11 17:37:17,040 - INFO - musicbot.permissions | In permissions.py::MainThread(14000), line 62 in __init__: Permissions file not found, copying example_permissions.ini
+[2.0046377182006836] 2019-04-11 17:37:17,045 - DEBUG - musicbot.json | In json.py::MainThread(14000), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.0086271762847900] 2019-04-11 17:37:17,049 - WARNING - musicbot.aliases | In aliases.py::MainThread(14000), line 22 in __init__: Aliases file not found, copying example_aliases.json
+[2.0415384769439697] 2019-04-11 17:37:17,081 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 91 in __init__: Starting MusicBot 1.9.8_4
+[2.0425360202789307] 2019-04-11 17:37:17,082 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 97 in __init__: Loaded autoplaylist with 2531 entries
+[5.0986745357513428] 2019-04-11 17:37:20,139 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 922 in on_ready: Connection established, ready to go.
+[5.0986745357513428] 2019-04-11 17:37:20,139 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 340 in _cache_app_info: Caching app info
+[5.3382871150970459] 2019-04-11 17:37:20,378 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 744 in _scheck_ensure_env: Ensuring data folders exist
+[5.3392846584320068] 2019-04-11 17:37:20,379 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 760 in _scheck_server_permissions: Checking server permissions
+[5.3392846584320068] 2019-04-11 17:37:20,379 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 764 in _scheck_autoplaylist: Auditing autoplaylist
+[5.3392846584320068] 2019-04-11 17:37:20,379 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 768 in _scheck_configs: Validating config
+[5.3392846584320068] 2019-04-11 17:37:20,379 - DEBUG - musicbot.config | In config.py::MainThread(14000), line 217 in async_validate: Validating options...
+[5.3392846584320068] 2019-04-11 17:37:20,379 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 771 in _scheck_configs: Validating permissions config
+[5.3392846584320068] 2019-04-11 17:37:20,379 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14000), line 94 in async_validate: Validating permissions...
+[5.3392846584320068] 2019-04-11 17:37:20,379 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 939 in on_ready: Connected: 565918719000313859/Jobu#3600
+[5.3402817249298096] 2019-04-11 17:37:20,380 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 947 in on_ready: Owner:     299975914312171521/Stretched default#9469
+
+[5.3402817249298096] 2019-04-11 17:37:20,380 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 950 in on_ready: Guild List:
+[5.3412792682647705] 2019-04-11 17:37:20,381 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 954 in on_ready:  - suitsu salk
+[5.3412792682647705] 2019-04-11 17:37:20,381 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 1010 in on_ready: Not bound to any text channels
+[5.3422758579254150] 2019-04-11 17:37:20,382 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 1036 in on_ready: Not autojoining any voice channels
+[5.3422758579254150] 2019-04-11 17:37:20,382 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 270 in _join_startup_channels: Found owner in "Gangsterid Ainult"
+[5.3422758579254150] 2019-04-11 17:37:20,382 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 279 in _join_startup_channels: Attempting to join suitsu salk/Gangsterid Ainult
+[6.0543715953826904] 2019-04-11 17:37:21,094 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 295 in _join_startup_channels: Joined suitsu salk/Gangsterid Ainult
+[6.0543715953826904] 2019-04-11 17:37:21,094 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 515 in on_player_finished_playing: Running on_player_finished_playing
+[6.0543715953826904] 2019-04-11 17:37:21,094 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 530 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[6.0703296661376953] 2019-04-11 17:37:21,110 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 511 in on_player_stop: Running on_player_stop
+[10.5852651596069336] 2019-04-11 17:37:25,625 - DEBUG - musicbot.entry | In entry.py::MainThread(14000), line 56 in get_ready_future: Created future for None
+[10.5852651596069336] 2019-04-11 17:37:25,625 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 595 in on_player_entry_added: Running on_player_entry_added
+[10.5862629413604736] 2019-04-11 17:37:25,626 - INFO - musicbot.entry | In entry.py::MainThread(14000), line 292 in _really_download: Download started: https://youtube.com/watch?v=1FhRhzAWzLA
+[12.5796852111816406] 2019-04-11 17:37:27,620 - DEBUG - musicbot.entry | In entry.py::MainThread(14000), line 56 in get_ready_future: Created future for None
+[12.9895899295806885] 2019-04-11 17:37:28,029 - INFO - musicbot.entry | In entry.py::MainThread(14000), line 302 in _really_download: Download complete: https://youtube.com/watch?v=1FhRhzAWzLA
+[12.9925827980041504] 2019-04-11 17:37:28,032 - FFMPEG - musicbot.player | In player.py::MainThread(14000), line 273 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-1FhRhzAWzLA-Sam_Hunt_-_House_Party.webm
+[13.4054963588714600] 2019-04-11 17:37:28,445 - DEBUG - musicbot.player | In player.py::MainThread(14000), line 284 in _play: Playing <discord.player.PCMVolumeTransformer object at 0x0388EEB0> using <discord.voice_client.VoiceClient object at 0x0512E930>
+[13.4064943790435791] 2019-04-11 17:37:28,446 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 458 in on_player_play: Running on_player_play
+[13.4074900150299072] 2019-04-11 17:37:28,447 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 680 in serialize_queue: Serializing queue for 552915451714469908
+[19.3553450107574463] 2019-04-11 17:37:34,395 - INFO - musicbot.bot | In bot.py::MainThread(14000), line 2648 in on_message: 299975914312171521/Stretched default#9469: !play 123
+[21.6839280128479004] 2019-04-11 17:37:36,724 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 1371 in cmd_play: {'_type': 'url', 'url': 'ytsearch:123', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '123', 'webpage_url_basename': '123', 'extractor_key': 'Generic'}
+[26.6943173408508301] 2019-04-11 17:37:41,734 - DEBUG - musicbot.entry | In entry.py::MainThread(14000), line 56 in get_ready_future: Created future for None
+[26.6963117122650146] 2019-04-11 17:37:41,736 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 595 in on_player_entry_added: Running on_player_entry_added
+[26.6963117122650146] 2019-04-11 17:37:41,736 - DEBUG - musicbot.bot | In bot.py::MainThread(14000), line 680 in serialize_queue: Serializing queue for 552915451714469908
+[26.6973073482513428] 2019-04-11 17:37:41,737 - INFO - musicbot.entry | In entry.py::MainThread(14000), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=p03TIGqEc8o
+[29.3820111751556396] 2019-04-11 17:37:44,422 - INFO - musicbot.entry | In entry.py::MainThread(14000), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=p03TIGqEc8o
